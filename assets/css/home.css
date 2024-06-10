@@ -1,0 +1,12 @@
+:root {
+    --dark-blue: #2e3d50;
+}
+
+
+* {
+    background-color: var(--dark-blue);
+}
+
+body h1 {
+    font-family: serif;
+}
