@@ -11,6 +11,7 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: var(--dark-blue);
 }
 
 #form-holder {
@@ -30,3 +31,8 @@ body h1 {
 form {
     background-color: var(--light-blue);
 }
+
+.form-group {
+    margin: 10px;
+}
+
