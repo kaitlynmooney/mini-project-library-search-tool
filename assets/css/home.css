@@ -1,0 +1,38 @@
+:root {
+    --dark-blue: #2e3d50;
+    --light-blue: #d9e7e8;
+}
+
+* {
+    background-color: var(--dark-blue);
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-blue);
+}
+
+#form-holder {
+    display: flex;
+    flex-direction: column;
+}
+
+body h1 {
+    font-family: serif;
+    margin: 0;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    text-align: center;
+    padding: 10px;
+}
+
+form {
+    background-color: var(--light-blue);
+}
+
+.form-group {
+    margin: 10px;
+}
+
