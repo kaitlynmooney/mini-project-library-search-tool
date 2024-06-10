@@ -5,6 +5,7 @@
 
 * {
     background-color: var(--dark-blue);
+    border: 1px solid red;
 }
 
 body h1 {
